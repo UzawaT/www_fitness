@@ -1,0 +1,77 @@
+body{
+    background-color: darkgray;
+}
+
+#header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    background-color: grey;
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+nav{
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:link{
+    color: white;
+}
+nav a:hover{
+    background-color: darkgrey;
+}
+
+nav a:visited{
+    color: white;
+}
+input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#main{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 5px;
+}
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+}
+th, td{
+    border: 1px solid black;
+    padding: 10px;
+}
+button{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+#footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: grey;
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+    font-style: italic;
+}
